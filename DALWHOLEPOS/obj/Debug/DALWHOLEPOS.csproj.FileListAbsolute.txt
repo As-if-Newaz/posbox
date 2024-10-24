@@ -1,0 +1,6 @@
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\DALWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\DALWHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.csproj.AssemblyReference.cache
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.csproj.CoreCompileInputs.cache
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.pdb

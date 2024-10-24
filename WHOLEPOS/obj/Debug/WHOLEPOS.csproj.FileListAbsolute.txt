@@ -1,0 +1,12 @@
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\WHOLEPOS.exe.config
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\WHOLEPOS.exe
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\WHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\BLLWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\BLLWHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.csproj.AssemblyReference.cache
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.Properties.Resources.resources
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.csproj.GenerateResource.cache
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.csproj.CoreCompileInputs.cache
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.csproj.Up2Date
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.exe
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.pdb

@@ -1,0 +1,9 @@
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\BLLWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\BLLWHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\DALWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\DALWHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.csproj.AssemblyReference.cache
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.csproj.CoreCompileInputs.cache
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLE.D49292B6.Up2Date
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.pdb
