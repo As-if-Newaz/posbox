@@ -4,3 +4,9 @@ C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.csproj.AssemblyR
 C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.csproj.CoreCompileInputs.cache
 C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.dll
 C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\DALWHOLEPOS.dll.config
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.dll
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.xml
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLE.E0F301FA.Up2Date

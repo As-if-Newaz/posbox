@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Asifk\\Desktop\\POSBOX\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\dalwholepos\\ef\\tablemodels\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|solutionrelative:dalwholepos\\ef\\tablemodels\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\dalwholepos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|solutionrelative:dalwholepos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\bllwholepos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|C:\\Users\\Asifk\\Desktop\\POSBOX\\bllwholepos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|solutionrelative:bllwholepos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B605D392-C0A7-4F98-AA81-7FD7D69F228B}|WHOLEPOS\\WHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\wholepos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B605D392-C0A7-4F98-AA81-7FD7D69F228B}|WHOLEPOS\\WHOLEPOS.csproj|C:\\Users\\Asifk\\Desktop\\POSBOX\\wholepos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B605D392-C0A7-4F98-AA81-7FD7D69F228B}|WHOLEPOS\\WHOLEPOS.csproj|solutionrelative:wholepos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Business.cs",
+              "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Business.cs",
+              "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Business.cs",
+              "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Business.cs",
+              "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Business.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAxwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:24:35.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Class1.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Class1.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\Class1.cs",
               "RelativeDocumentMoniker": "BLLWHOLEPOS\\Class1.cs",
@@ -47,20 +64,18 @@
               "RelativeToolTip": "BLLWHOLEPOS\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:39:40.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T16:39:40.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\WHOLEPOS\\Form1.cs",
               "RelativeDocumentMoniker": "WHOLEPOS\\Form1.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\WHOLEPOS\\Form1.cs [Design]",
               "RelativeToolTip": "WHOLEPOS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:39:05.109Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-22T16:39:05.109Z"
             }
           ]
         }

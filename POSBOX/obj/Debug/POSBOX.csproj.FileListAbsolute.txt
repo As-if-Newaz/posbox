@@ -79,3 +79,7 @@ C:\Users\Asifk\Desktop\POSBOX\POSBOX\obj\Debug\POSBOX.csproj.CoreCompileInputs.c
 C:\Users\Asifk\Desktop\POSBOX\POSBOX\obj\Debug\POSBOX.csproj.Up2Date
 C:\Users\Asifk\Desktop\POSBOX\POSBOX\obj\Debug\POSBOX.dll
 C:\Users\Asifk\Desktop\POSBOX\POSBOX\obj\Debug\POSBOX.pdb
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.dll
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.SqlServer.dll
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.xml
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.SqlServer.xml

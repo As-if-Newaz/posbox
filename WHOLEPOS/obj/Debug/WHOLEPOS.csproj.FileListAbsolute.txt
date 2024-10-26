@@ -10,3 +10,7 @@ C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.csproj.CoreCompileInpu
 C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.csproj.Up2Date
 C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.exe
 C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\obj\Debug\WHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\EntityFramework.dll
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\EntityFramework.xml
+C:\Users\Asifk\Desktop\POSBOX\WHOLEPOS\bin\Debug\EntityFramework.SqlServer.xml
