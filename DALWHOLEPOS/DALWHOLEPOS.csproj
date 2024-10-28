@@ -60,6 +60,7 @@
     <Compile Include="EF\TableModels\Report.cs" />
     <Compile Include="EF\TableModels\Sell.cs" />
     <Compile Include="EF\TableModels\Supplier.cs" />
+    <Compile Include="EF\TableModels\Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

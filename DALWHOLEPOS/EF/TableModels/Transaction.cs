@@ -8,34 +8,37 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.EF.TableModels
 {
-    public class Report
+    public class Transaction
     {
         public int Id { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string BusinessName { get; set; }
+        public string Type { get; set; }
 
         [Required]
-        public int NetSell {  get; set; }
-
-        [Required] 
-        public int NetCost { get; set; }
-
+        [Column(TypeName = "VARCHAR")]
+        [StringLength(100)]
+        public string Reason { get; set; }
 
         [Required]
-        public int NetProfit { get; set; }
-
+        public DateTime TransactionTime { get; set; }
 
         [Required]
-        public int SellNo { get; set; }
+        public int Amount { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; }
 
         [Required]
+        [Column(TypeName = "VARCHAR")]
+        [StringLength(50)]
+        public string CreatedBy { get; set; }
+
+        [Required]
         public DateTime CreatedAt { get; set; }
+
 
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
