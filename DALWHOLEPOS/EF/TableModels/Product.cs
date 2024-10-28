@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.EF.TableModels
 {
-    public class Supplier
+    public class Product
     {
-        public int Id { get; set; }
+        int Id { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
@@ -20,19 +20,20 @@ namespace DALWHOLEPOS.EF.TableModels
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string Address { get; set; }
-
-        public int PaymentDue { get; set; }
+        public string CostCode { get; set; }
 
         [Required]
+        public int stock {  get; set; }
+
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string Remarks { get; set; }
+        public string Barcode { get; set; }
 
         [Required]
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
-        public string Phone { get; set; }
+        public DateTime AddingDate { get; set; }
+
+        [Required]
+        public DateTime ExpireDate { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; }
@@ -44,7 +45,6 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         public DateTime CreatedAt { get; set; }
-
 
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
@@ -63,6 +63,13 @@ namespace DALWHOLEPOS.EF.TableModels
         [ForeignKey("Business")]
         [Required]
         public int BusinessId { get; set; }
+
+        public Supplier Supplier { get; set; }
+        [ForeignKey("Supplier")]
+        [Required]
+        public int SupplierId { get; set; }
+
+
 
     }
 }

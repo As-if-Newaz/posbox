@@ -54,6 +54,11 @@
     <Compile Include="Class1.cs" />
     <Compile Include="EF\TableModels\Business.cs" />
     <Compile Include="EF\TableModels\Customer.cs" />
+    <Compile Include="EF\TableModels\Invoice.cs" />
+    <Compile Include="EF\TableModels\Product.cs" />
+    <Compile Include="EF\TableModels\QuickSell.cs" />
+    <Compile Include="EF\TableModels\Report.cs" />
+    <Compile Include="EF\TableModels\Sell.cs" />
     <Compile Include="EF\TableModels\Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

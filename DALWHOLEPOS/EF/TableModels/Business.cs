@@ -39,7 +39,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
 
         [Required]
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } //ISDELETED
 
         [Required]
         [Column(TypeName = "VARCHAR")]

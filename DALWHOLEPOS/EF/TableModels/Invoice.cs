@@ -1,38 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.EF.TableModels
 {
-    public class Supplier
+    public class Invoice
     {
         public int Id { get; set; }
 
         [Required]
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
-        public string Name { get; set; }
+        public int GrossAmount { get; set; }    
+
+        [Required]
+        public int NetAmount { get; set; }
+
+        public int DiscountTk { get; set; }
+
+        public int Due { get; set; }
+
+        [Required]
+        public DateTime InvoiceDateTime { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string Address { get; set; }
-
-        public int PaymentDue { get; set; }
+        public string PaymentMethod { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string Remarks { get; set; }
+        public string Comment { get; set; }
+
+        [Required]
+        public int Cost { get; set; }
+
+        [Required]
+        public int Profit { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string Phone { get; set; }
+        public string Status { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; }
@@ -44,7 +56,6 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         public DateTime CreatedAt { get; set; }
-
 
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]

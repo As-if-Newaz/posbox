@@ -8,31 +8,30 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.EF.TableModels
 {
-    public class Supplier
+    public class QuickSell
     {
         public int Id { get; set; }
 
+        public Invoice Invoice { get; set; }
+        [ForeignKey("Invoice")]
         [Required]
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
-        public string Name { get; set; }
+        public int InvoiceId { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
-        public string Address { get; set; }
+        public string ProductName { get; set; }
 
-        public int PaymentDue { get; set; }
+        public Customer Customer { get; set; }
+        [ForeignKey("Customer")]
+        [Required]
+        public int CustomerId { get; set; }
 
         [Required]
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
-        public string Remarks { get; set; }
+        public int Quantity { get; set; }
 
         [Required]
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
-        public string Phone { get; set; }
+        public int UnitPrice { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; }
@@ -44,7 +43,6 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         public DateTime CreatedAt { get; set; }
-
 
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
@@ -63,6 +61,5 @@ namespace DALWHOLEPOS.EF.TableModels
         [ForeignKey("Business")]
         [Required]
         public int BusinessId { get; set; }
-
     }
 }

@@ -35,6 +35,9 @@ namespace DALWHOLEPOS.EF.TableModels
         public string Phone { get; set; }
 
         [Required]
+        public bool IsDeleted { get; set; }
+
+        [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
         public string CreatedBy { get; set; }
