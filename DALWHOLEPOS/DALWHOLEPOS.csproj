@@ -55,6 +55,7 @@
     <Compile Include="EF\TableModels\Business.cs" />
     <Compile Include="EF\TableModels\Customer.cs" />
     <Compile Include="EF\TableModels\Invoice.cs" />
+    <Compile Include="EF\TableModels\LoginToken.cs" />
     <Compile Include="EF\TableModels\Product.cs" />
     <Compile Include="EF\TableModels\QuickSell.cs" />
     <Compile Include="EF\TableModels\Report.cs" />
