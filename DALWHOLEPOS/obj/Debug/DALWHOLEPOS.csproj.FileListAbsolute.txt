@@ -10,3 +10,5 @@ C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.SqlServer.dl
 C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.xml
 C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLE.E0F301FA.Up2Date
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.Migrations.initDB0.resources
+C:\Users\Asifk\Desktop\POSBOX\DALWHOLEPOS\obj\Debug\DALWHOLEPOS.csproj.GenerateResource.cache

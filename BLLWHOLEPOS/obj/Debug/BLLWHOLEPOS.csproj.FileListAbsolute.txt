@@ -8,3 +8,5 @@ C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLE.D49292B6.Up2Date
 C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.dll
 C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.pdb
 C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\DALWHOLEPOS.dll.config
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\EntityFramework.dll
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\EntityFramework.xml

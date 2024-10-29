@@ -10,7 +10,7 @@ namespace DALWHOLEPOS.EF.TableModels
 {
     public class Product
     {
-        int Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]

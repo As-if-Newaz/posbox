@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EF\Context.cs" />
     <Compile Include="EF\TableModels\Business.cs" />
     <Compile Include="EF\TableModels\Customer.cs" />
     <Compile Include="EF\TableModels\Invoice.cs" />
@@ -62,13 +63,22 @@
     <Compile Include="EF\TableModels\Sell.cs" />
     <Compile Include="EF\TableModels\Supplier.cs" />
     <Compile Include="EF\TableModels\Transaction.cs" />
+    <Compile Include="Migrations\202410291449456_initDB0.cs" />
+    <Compile Include="Migrations\202410291449456_initDB0.Designer.cs">
+      <DependentUpon>202410291449456_initDB0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202410291449456_initDB0.resx">
+      <DependentUpon>202410291449456_initDB0.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
