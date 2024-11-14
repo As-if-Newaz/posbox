@@ -23,7 +23,7 @@ namespace DALWHOLEPOS.EF.TableModels
         public string CostCode { get; set; }
 
         [Required]
-        public int stock {  get; set; }
+        public int Stock {  get; set; }
 
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
@@ -34,6 +34,10 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         public DateTime ExpireDate { get; set; }
+
+        [Column(TypeName = "VARCHAR")]
+        [StringLength(50)]
+        public string Comment { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; }
