@@ -75,7 +75,11 @@
     <Compile Include="Repos\InvoiceRepo.cs" />
     <Compile Include="Repos\LoginTokenRepo.cs" />
     <Compile Include="Repos\ProductRepo.cs" />
+    <Compile Include="Repos\QuickSellRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\ReportRepo.cs" />
+    <Compile Include="Repos\SellRepo.cs" />
+    <Compile Include="Repos\SupplierRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
