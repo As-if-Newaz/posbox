@@ -80,6 +80,7 @@
     <Compile Include="Repos\ReportRepo.cs" />
     <Compile Include="Repos\SellRepo.cs" />
     <Compile Include="Repos\SupplierRepo.cs" />
+    <Compile Include="Repos\TransactionRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
