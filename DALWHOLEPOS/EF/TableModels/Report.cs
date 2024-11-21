@@ -14,7 +14,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
+        [StringLength(200)]
         public string BusinessName { get; set; }
 
         [Required]

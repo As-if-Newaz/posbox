@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Asifk\\Desktop\\POSBOX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\dalwholepos\\migrations\\202411211324526_dalfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|solutionrelative:dalwholepos\\migrations\\202411211324526_dalfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\dalwholepos\\migrations\\202411211346196_dalcomplete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|solutionrelative:dalwholepos\\migrations\\202411211346196_dalcomplete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\dalwholepos\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,8 +51,16 @@
       "RelativeMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|solutionrelative:dalwholepos\\ef\\tablemodels\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\bllwholepos\\dtos\\businessdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\bllwholepos\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|solutionrelative:bllwholepos\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|C:\\Users\\Asifk\\Desktop\\POSBOX\\bllwholepos\\dtos\\businessdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|solutionrelative:bllwholepos\\dtos\\businessdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|c:\\users\\asifk\\desktop\\posbox\\bllwholepos\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E6C5C8-2F15-48CE-868D-A55BCDFDADAE}|BLLWHOLEPOS\\BLLWHOLEPOS.csproj|solutionrelative:bllwholepos\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8965F9E-4823-425D-8CB6-0074EDC7649E}|DALWHOLEPOS\\DALWHOLEPOS.csproj|C:\\Users\\Asifk\\Desktop\\POSBOX\\dalwholepos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,14 +139,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "202411211324526_DALFINAL.cs",
-              "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Migrations\\202411211324526_DALFINAL.cs",
-              "RelativeDocumentMoniker": "DALWHOLEPOS\\Migrations\\202411211324526_DALFINAL.cs",
-              "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Migrations\\202411211324526_DALFINAL.cs",
-              "RelativeToolTip": "DALWHOLEPOS\\Migrations\\202411211324526_DALFINAL.cs",
+              "Title": "202411211346196_DALComplete.cs",
+              "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Migrations\\202411211346196_DALComplete.cs",
+              "RelativeDocumentMoniker": "DALWHOLEPOS\\Migrations\\202411211346196_DALComplete.cs",
+              "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Migrations\\202411211346196_DALComplete.cs",
+              "RelativeToolTip": "DALWHOLEPOS\\Migrations\\202411211346196_DALComplete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:24:57.003Z",
+              "WhenOpened": "2024-11-21T13:46:24.322Z",
               "EditorCaption": ""
             },
             {
@@ -151,25 +159,51 @@
               "RelativeToolTip": "DALWHOLEPOS\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:24:35.223Z",
+              "WhenOpened": "2024-11-21T13:45:39.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\DTOs\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "BLLWHOLEPOS\\DTOs\\InvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\DTOs\\InvoiceDTO.cs",
+              "RelativeToolTip": "BLLWHOLEPOS\\DTOs\\InvoiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:36:26.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "BLLWHOLEPOS\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "BLLWHOLEPOS\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:31:28.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BusinessDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\DTOs\\BusinessDTO.cs",
               "RelativeDocumentMoniker": "BLLWHOLEPOS\\DTOs\\BusinessDTO.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\BLLWHOLEPOS\\DTOs\\BusinessDTO.cs",
               "RelativeToolTip": "BLLWHOLEPOS\\DTOs\\BusinessDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T12:14:46.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DataAccess.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\DataAccess.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\DataAccess.cs",
@@ -177,8 +211,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\DataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T15:24:14.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T15:24:14.341Z"
             },
             {
               "$type": "Document",
@@ -188,14 +221,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Transaction.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Transaction.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Transaction.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T18:01:41.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SupplierRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\SupplierRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\SupplierRepo.cs",
@@ -203,8 +236,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\SupplierRepo.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAcwFMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:31:40.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:31:40.835Z"
             },
             {
               "$type": "Document",
@@ -214,14 +246,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Supplier.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Supplier.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Supplier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T09:40:04.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "SellRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\SellRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\SellRepo.cs",
@@ -229,8 +261,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\SellRepo.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAcwFIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:57:48.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T15:57:48.35Z"
             },
             {
               "$type": "Document",
@@ -240,14 +271,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Sell.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Sell.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Sell.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwBUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T15:46:33.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "QuickSellRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\QuickSellRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\QuickSellRepo.cs",
@@ -255,12 +286,11 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\QuickSellRepo.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAcwFIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T13:17:36.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T13:17:36.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ReportRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\ReportRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\ReportRepo.cs",
@@ -268,8 +298,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\ReportRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:21:06.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:21:06.041Z"
             },
             {
               "$type": "Document",
@@ -279,7 +308,7 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Report.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Report.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Report.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowDUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T15:55:55.621Z",
               "EditorCaption": ""
@@ -292,14 +321,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\QuickSell.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\QuickSell.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\QuickSell.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswBkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T15:52:18.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ProductRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\ProductRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\ProductRepo.cs",
@@ -307,8 +336,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\ProductRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:12:12.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T14:12:12.447Z"
             },
             {
               "$type": "Document",
@@ -318,14 +346,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Product.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Product.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Product.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowEoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAADwvzEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T14:34:34.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "InvoiceRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\InvoiceRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\InvoiceRepo.cs",
@@ -333,12 +361,11 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\InvoiceRepo.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAcwGMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:52:39.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T14:52:39.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "LoginTokenRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\LoginTokenRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\LoginTokenRepo.cs",
@@ -346,8 +373,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\LoginTokenRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:23:04.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T13:23:04.29Z"
             },
             {
               "$type": "Document",
@@ -357,7 +383,7 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\LoginToken.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\LoginToken.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\LoginToken.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T07:51:07.274Z",
               "EditorCaption": ""
@@ -370,14 +396,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Invoice.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Invoice.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Invoice.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAowEkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T10:15:58.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "CustomerRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\CustomerRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\CustomerRepo.cs",
@@ -385,8 +411,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\CustomerRepo.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAcwFQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T10:26:33.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T10:26:33.616Z"
             },
             {
               "$type": "Document",
@@ -396,14 +421,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Customer.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Customer.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Customer.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwDkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T06:14:47.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "BusinessRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\BusinessRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\BusinessRepo.cs",
@@ -411,8 +436,7 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\BusinessRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:19:43.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:19:43.728Z"
             },
             {
               "$type": "Document",
@@ -422,14 +446,14 @@
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\TableModels\\Business.cs",
               "ToolTip": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\TableModels\\Business.cs",
               "RelativeToolTip": "DALWHOLEPOS\\EF\\TableModels\\Business.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAA1wEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwGUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T12:24:35.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Repo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Repos\\Repo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Repos\\Repo.cs",
@@ -437,12 +461,11 @@
               "RelativeToolTip": "DALWHOLEPOS\\Repos\\Repo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:15:25.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:15:25.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IRepo.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\Interfaces\\IRepo.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\Interfaces\\IRepo.cs",
@@ -450,12 +473,11 @@
               "RelativeToolTip": "DALWHOLEPOS\\Interfaces\\IRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:35:50.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:35:50.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\POSBOX\\Web.config",
               "RelativeDocumentMoniker": "POSBOX\\Web.config",
@@ -468,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\WHOLEPOS\\App.config",
               "RelativeDocumentMoniker": "WHOLEPOS\\App.config",
@@ -480,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Context.cs",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\DALWHOLEPOS\\EF\\Context.cs",
               "RelativeDocumentMoniker": "DALWHOLEPOS\\EF\\Context.cs",
@@ -488,12 +510,11 @@
               "RelativeToolTip": "DALWHOLEPOS\\EF\\Context.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAswEEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T13:20:11.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T13:20:11.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asifk\\Desktop\\POSBOX\\WHOLEPOS\\Form1.cs",
               "RelativeDocumentMoniker": "WHOLEPOS\\Form1.cs",

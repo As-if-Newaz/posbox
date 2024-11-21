@@ -19,7 +19,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(100)]
+        [StringLength(200)]
         public string Reason { get; set; }
 
         [Required]

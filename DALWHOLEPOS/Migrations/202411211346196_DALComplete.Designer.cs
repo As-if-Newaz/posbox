@@ -7,13 +7,13 @@ namespace DALWHOLEPOS.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.5.1")]
-    public sealed partial class DALFINAL : IMigrationMetadata
+    public sealed partial class DALComplete : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DALFINAL));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DALComplete));
         
         string IMigrationMetadata.Id
         {
-            get { return "202411211324526_DALFINAL"; }
+            get { return "202411211346196_DALComplete"; }
         }
         
         string IMigrationMetadata.Source

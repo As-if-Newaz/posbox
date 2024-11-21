@@ -14,7 +14,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
+        [StringLength(200)]
         public string Name { get; set; }
 
         [Required]
@@ -39,7 +39,7 @@ namespace DALWHOLEPOS.EF.TableModels
         public DateTime ExpireDate { get; set; }
 
         [Column(TypeName = "VARCHAR")]
-        [StringLength(50)]
+        [StringLength(200)]
         public string Comment { get; set; }
 
         [Required]
