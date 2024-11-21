@@ -70,7 +70,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
         public DateTime? DeletedAt { get; set; }
 
-        public Business Business { get; set; }
+        public virtual Business Business { get; set; }
         [ForeignKey("Business")]
         [Required]
         public int BusinessId { get; set; }

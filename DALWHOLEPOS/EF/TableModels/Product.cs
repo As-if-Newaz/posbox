@@ -66,12 +66,12 @@ namespace DALWHOLEPOS.EF.TableModels
 
         public DateTime? DeletedAt { get; set; }
 
-        public Business Business { get; set; }
+        public virtual Business Business { get; set; }
         [ForeignKey("Business")]
         [Required]
         public int BusinessId { get; set; }
 
-        public Supplier Supplier { get; set; }
+        public virtual Supplier Supplier { get; set; }
         [ForeignKey("Supplier")]
         [Required]
         public int SupplierId { get; set; }

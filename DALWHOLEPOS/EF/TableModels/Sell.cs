@@ -13,17 +13,17 @@ namespace DALWHOLEPOS.EF.TableModels
         public int Id { get; set; }
 
         
-        public Invoice Invoice { get; set; }
+        public virtual Invoice Invoice { get; set; }
         [ForeignKey("Invoice")]
         [Required]
         public int InvoiceId {  get; set; }
 
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
         [ForeignKey("Product")]
         [Required]
         public int ProductId { get; set; }
 
-        public Customer Customer { get; set; }
+        public virtual Customer Customer { get; set; }
         [ForeignKey("Customer")]
         [Required]
         public int CustomerId { get; set; }
@@ -58,7 +58,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
         public DateTime? DeletedAt { get; set; }
 
-        public Business Business { get; set; }
+        public virtual Business Business { get; set; }
         [ForeignKey("Business")]
         [Required]
         public int BusinessId { get; set; }
