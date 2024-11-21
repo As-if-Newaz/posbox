@@ -45,6 +45,9 @@ namespace DALWHOLEPOS.Repos
             if (!string.IsNullOrEmpty(obj.Name))
                 exobj.Name = obj.Name;
 
+            if (obj.Cost != 0)
+                exobj.Cost = obj.Cost;
+
             if (!string.IsNullOrEmpty(obj.CostCode))
                 exobj.CostCode = obj.CostCode;
 

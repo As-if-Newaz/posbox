@@ -18,6 +18,9 @@ namespace DALWHOLEPOS.EF.TableModels
         public string Name { get; set; }
 
         [Required]
+        public int Cost { get; set; }
+
+        [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
         public string CostCode { get; set; }

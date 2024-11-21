@@ -3,16 +3,16 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class init : DbMigration
+    public partial class DALDone : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.Products", "Comment", c => c.String(maxLength: 50, unicode: false));
+            AddColumn("dbo.Products", "Cost", c => c.Int(nullable: false));
         }
         
         public override void Down()
         {
-            DropColumn("dbo.Products", "Comment");
+            DropColumn("dbo.Products", "Cost");
         }
     }
 }
