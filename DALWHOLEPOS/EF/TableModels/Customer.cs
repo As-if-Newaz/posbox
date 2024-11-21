@@ -14,19 +14,19 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(200)]
+        [StringLength(100)]
         public string Name { get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(200)]
+        [StringLength(100)]
         public string Address { get; set; }
 
         public int Due {  get; set; }
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(200)]
+        [StringLength(100)]
         public string Remarks { get; set; }
 
         [Required]

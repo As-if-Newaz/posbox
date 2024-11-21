@@ -64,9 +64,9 @@
     <Compile Include="EF\TableModels\Supplier.cs" />
     <Compile Include="EF\TableModels\Transaction.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202411211346196_DALComplete.cs" />
-    <Compile Include="Migrations\202411211346196_DALComplete.Designer.cs">
-      <DependentUpon>202411211346196_DALComplete.cs</DependentUpon>
+    <Compile Include="Migrations\202411211357328_Final.cs" />
+    <Compile Include="Migrations\202411211357328_Final.Designer.cs">
+      <DependentUpon>202411211357328_Final.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,8 +87,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202411211346196_DALComplete.resx">
-      <DependentUpon>202411211346196_DALComplete.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411211357328_Final.resx">
+      <DependentUpon>202411211357328_Final.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

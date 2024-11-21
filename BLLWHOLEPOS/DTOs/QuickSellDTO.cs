@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DALWHOLEPOS.EF.TableModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
@@ -8,47 +9,50 @@ using System.Threading.Tasks;
 
 namespace BLLWHOLEPOS.DTOs
 {
-    public class CustomerDTO
+    public class QuickSellDTO
     {
         public int Id { get; set; }
 
+        public virtual Invoice Invoice { get; set; }
+        [ForeignKey("Invoice")]
         [Required]
+        public int InvoiceId { get; set; }
+
+        [Required]
+        [Column(TypeName = "VARCHAR")]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string ProductName { get; set; }
+
+        public virtual Customer Customer { get; set; }
+        [ForeignKey("Customer")]
+        [Required]
+        public int CustomerId { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string Address { get; set; }
-
-        public int Due { get; set; }
+        public int Quantity { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Remarks { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Phone { get; set; }
+        public int UnitPrice { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; }
 
         [Required]
+        [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
         public string CreatedBy { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; }
 
-
-
+        [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
         public string UpdatedBy { get; set; }
 
 
         public DateTime? UpdatedAt { get; set; }
 
-
+        [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
         public string DeletedBy { get; set; }
 

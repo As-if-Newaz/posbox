@@ -12,6 +12,11 @@ namespace DALWHOLEPOS.Repos
     {
         public bool Create(Supplier obj)
         {
+            var exists = db.Suppliers.Any(v => v.Name == obj.Name || v.Phone == obj.Phone);
+            if (exists)
+            {
+                return false;
+            }
             db.Suppliers.Add(obj);
             db.SaveChanges();
             return true;

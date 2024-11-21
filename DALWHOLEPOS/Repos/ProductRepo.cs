@@ -12,6 +12,20 @@ namespace DALWHOLEPOS.Repos
     {
         public bool Create(Product obj)
         {
+            var exists = db.Products.Any(v => v.Name == obj.Name);
+            if (exists)
+            {
+                return false;
+            }
+            if(!string.IsNullOrEmpty(obj.Barcode))
+            {
+                var barExists = db.Products.Any(v => v.Name == obj.Name && v.Barcode == obj.Barcode);
+                if(barExists)
+                {
+                    return false;
+                }
+
+            }
             db.Products.Add(obj);
             db.SaveChanges();
             return true;

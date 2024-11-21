@@ -46,6 +46,9 @@
     <Compile Include="DTOs\BusinessDTO.cs" />
     <Compile Include="DTOs\CustomerDTO.cs" />
     <Compile Include="DTOs\InvoiceDTO.cs" />
+    <Compile Include="DTOs\LoginTokenDTO.cs" />
+    <Compile Include="DTOs\ProductDTO.cs" />
+    <Compile Include="DTOs\QuickSellDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

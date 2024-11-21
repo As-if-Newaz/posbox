@@ -12,9 +12,8 @@ namespace DALWHOLEPOS.Repos
     {
         public bool Create(Customer obj)
         {
-            var data = db.Customers.Where(v => v.Name.Equals(obj.Name)).FirstOrDefault();
-            var data1 = db.Customers.Where(v => v.Phone.Equals(obj.Phone)).FirstOrDefault();
-            if (data != null || data1 != null)
+            var exists = db.Businesses.Any(v => v.Name == obj.Name || v.Phone == obj.Phone);
+            if (exists)
             {
                 return false;
             }

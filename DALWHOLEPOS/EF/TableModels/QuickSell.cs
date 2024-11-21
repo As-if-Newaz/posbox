@@ -19,7 +19,7 @@ namespace DALWHOLEPOS.EF.TableModels
 
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(200)]
+        [StringLength(100)]
         public string ProductName { get; set; }
 
         public virtual Customer Customer { get; set; }

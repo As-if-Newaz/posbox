@@ -31,7 +31,7 @@ namespace BLLWHOLEPOS.DTOs
         public string PaymentMethod { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(100)]
         public string Comment { get; set; }
 
         [Required]

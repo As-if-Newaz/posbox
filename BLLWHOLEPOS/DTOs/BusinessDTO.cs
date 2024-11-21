@@ -12,11 +12,11 @@ namespace BLLWHOLEPOS.DTOs
         public int Id { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(100)]
         public string Name { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(100)]
         public string Address { get; set; }
 
         [Required]
