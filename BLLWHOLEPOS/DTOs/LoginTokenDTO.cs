@@ -22,5 +22,8 @@ namespace BLLWHOLEPOS.DTOs
 
         [Required]
         public bool IsValid { get; set; }
+
+        [Required]
+        public int BusinessId { get; set; }
     }
 }

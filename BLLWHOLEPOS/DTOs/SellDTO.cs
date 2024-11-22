@@ -1,6 +1,7 @@
 ﻿using DALWHOLEPOS.EF.TableModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -8,40 +9,29 @@ using System.Threading.Tasks;
 
 namespace BLLWHOLEPOS.DTOs
 {
-    public class BusinessDTO
+    public class SellDTO
     {
         public int Id { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string Name { get; set; }
-
-        [Required]
-        [StringLength(100)]
-        public string Address { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Phone { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Email { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Role { get; set; }
+        public int InvoiceId { get; set; }
 
 
         [Required]
-        public bool IsActive { get; set; } //ISDELETED
+        public int ProductId { get; set; }
+
 
         [Required]
-        [StringLength(50)]
-        public string Password { get; set; }
+        public int CustomerId { get; set; }
 
         [Required]
-        public int Cash { get; set; }
+        public int Quantity { get; set; }
+
+        [Required]
+        public int UnitPrice { get; set; }
+
+        [Required]
+        public bool IsDeleted { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -49,7 +39,6 @@ namespace BLLWHOLEPOS.DTOs
 
         [Required]
         public DateTime CreatedAt { get; set; }
-
 
         [StringLength(50)]
         public string UpdatedBy { get; set; }
@@ -62,5 +51,7 @@ namespace BLLWHOLEPOS.DTOs
 
         public DateTime? DeletedAt { get; set; }
 
+        [Required]
+        public int BusinessId { get; set; }
     }
 }

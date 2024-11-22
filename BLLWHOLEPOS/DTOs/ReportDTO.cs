@@ -1,5 +1,4 @@
-﻿using DALWHOLEPOS.EF.TableModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -8,44 +7,30 @@ using System.Threading.Tasks;
 
 namespace BLLWHOLEPOS.DTOs
 {
-    public class BusinessDTO
+    public class ReportDTO
     {
         public int Id { get; set; }
 
         [Required]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string BusinessName { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string Address { get; set; }
+        public int NetSell { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Phone { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Email { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Role { get; set; }
+        public int NetCost { get; set; }
 
 
         [Required]
-        public bool IsActive { get; set; } //ISDELETED
+        public int NetProfit { get; set; }
+
 
         [Required]
-        [StringLength(50)]
-        public string Password { get; set; }
+        public int SellNo { get; set; }
 
         [Required]
-        public int Cash { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string CreatedBy { get; set; }
+        public bool IsDeleted { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; }
@@ -57,10 +42,14 @@ namespace BLLWHOLEPOS.DTOs
 
         public DateTime? UpdatedAt { get; set; }
 
+
         [StringLength(50)]
         public string DeletedBy { get; set; }
 
         public DateTime? DeletedAt { get; set; }
 
+
+        [Required]
+        public int BusinessId { get; set; }
     }
 }

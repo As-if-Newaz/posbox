@@ -65,5 +65,8 @@ namespace BLLWHOLEPOS.DTOs
         public string DeletedBy { get; set; }
 
         public DateTime? DeletedAt { get; set; }
+
+        [Required]
+        public int BusinessId { get; set; }
     }
 }
