@@ -57,7 +57,6 @@ namespace DALWHOLEPOS.Repos
             if (obj.SellNo != 0)
                 exobj.SellNo = obj.SellNo;
 
-            exobj.IsDeleted = false;
 
             if (obj.CreatedAt != default(DateTime))
                 exobj.CreatedAt = obj.CreatedAt;

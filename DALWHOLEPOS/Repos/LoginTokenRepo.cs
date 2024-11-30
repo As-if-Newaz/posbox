@@ -47,7 +47,7 @@ namespace DALWHOLEPOS.Repos
             {
                 exobj.Key = obj.Key;
             }
-            exobj.IsValid = true;
+
             if (obj.CreatedAt != default(DateTime))
                 exobj.CreatedAt = obj.CreatedAt;
 

@@ -80,8 +80,6 @@ namespace DALWHOLEPOS.Repos
             if (!string.IsNullOrEmpty(obj.Comment))
                 exobj.Comment = obj.Comment;
 
-            exobj.IsDeleted = false;
-
 
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;

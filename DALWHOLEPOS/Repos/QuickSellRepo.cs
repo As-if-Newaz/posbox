@@ -57,7 +57,6 @@ namespace DALWHOLEPOS.Repos
             if (obj.UnitPrice != 0)
                 exobj.UnitPrice = obj.UnitPrice;
 
-            exobj.IsDeleted = false;
 
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;

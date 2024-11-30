@@ -54,8 +54,6 @@ namespace DALWHOLEPOS.Repos
             if (obj.Amount != 0)
                 exobj.Amount = obj.Amount;
 
-            exobj.IsDeleted = false;
-
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;
 

@@ -63,10 +63,11 @@
     <Compile Include="EF\TableModels\Sell.cs" />
     <Compile Include="EF\TableModels\Supplier.cs" />
     <Compile Include="EF\TableModels\Transaction.cs" />
+    <Compile Include="EF\TableModels\Transfer.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202411211357328_Final.cs" />
-    <Compile Include="Migrations\202411211357328_Final.Designer.cs">
-      <DependentUpon>202411211357328_Final.cs</DependentUpon>
+    <Compile Include="Migrations\202411290604470_db4.cs" />
+    <Compile Include="Migrations\202411290604470_db4.Designer.cs">
+      <DependentUpon>202411290604470_db4.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,14 +82,15 @@
     <Compile Include="Repos\SellRepo.cs" />
     <Compile Include="Repos\SupplierRepo.cs" />
     <Compile Include="Repos\TransactionRepo.cs" />
+    <Compile Include="Repos\TrasferRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202411211357328_Final.resx">
-      <DependentUpon>202411211357328_Final.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411290604470_db4.resx">
+      <DependentUpon>202411290604470_db4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

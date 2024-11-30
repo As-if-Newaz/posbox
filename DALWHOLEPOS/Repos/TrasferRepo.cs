@@ -8,34 +8,33 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.Repos
 {
-    internal class InvoiceRepo : Repo, IRepo<Invoice, int, bool>
+    internal class TrasferRepo : Repo, IRepo<Transfer, int, bool>
     {
-        public bool Create(Invoice obj)
+        public bool Create(Transfer obj)
         {
-            
-            db.Invoices.Add(obj);
+            db.Transfers.Add(obj);
             db.SaveChanges();
             return true;
         }
 
         public bool Delete(int id)
         {
-            var exobj = db.Invoices.Find(id);
+            var exobj = db.Transfers.Find(id);
             exobj.IsDeleted = true;
             return db.SaveChanges() > 0;
         }
 
-        public List<Invoice> Get()
+        public List<Transfer> Get()
         {
-            return db.Invoices.Where(p => p.IsDeleted == false).ToList();
+            return db.Transfers.Where(p => p.IsDeleted == false).ToList();
         }
 
-        public Invoice Get(int id)
+        public Transfer Get(int id)
         {
-            return db.Invoices.Where(v => v.Id == id && v.IsDeleted == false).FirstOrDefault();
+            return db.Transfers.Where(v => v.Id == id && v.IsDeleted == false).FirstOrDefault();
         }
 
-        public bool Update(Invoice obj)
+        public bool Update(Transfer obj)
         {
             var exobj = Get(obj.Id);
             if (exobj == null)
@@ -43,35 +42,30 @@ namespace DALWHOLEPOS.Repos
                 return false;
             }
 
-            if (obj.GrossAmount != 0)
-                exobj.GrossAmount = obj.GrossAmount;
+            if (obj.ProductId != 0)
+                exobj.ProductId = obj.ProductId;
 
-             if (obj.NetAmount != 0)
-                exobj.NetAmount = obj.NetAmount;
+            if (obj.Quantity != 0)
+                exobj.Quantity = obj.Quantity;
 
-              if (obj.DiscountTk != 0)
-                exobj.DiscountTk = obj.DiscountTk;
-
-            if (obj.Due != 0)
-                exobj.Due = obj.Due;
-
-            if (obj.InvoiceDateTime != default(DateTime))
-                exobj.InvoiceDateTime = obj.InvoiceDateTime;
-
-            if (!string.IsNullOrEmpty(obj.PaymentMethod))
-                exobj.PaymentMethod = obj.PaymentMethod;
+            if (obj.TransferTime != default(DateTime))
+                exobj.TransferTime = obj.TransferTime;
 
             if (!string.IsNullOrEmpty(obj.Comment))
                 exobj.Comment = obj.Comment;
 
-            if (obj.Cost != 0)
-                exobj.Cost = obj.Cost;
-
-            if (obj.Profit != 0)
-                exobj.Profit = obj.Profit;
+            if (obj.TransferCost != 0)
+                exobj.TransferCost = obj.TransferCost;
 
             if (!string.IsNullOrEmpty(obj.Status))
                 exobj.Status = obj.Status;
+
+            if (obj.FromBusinessId != 0)
+                exobj.FromBusinessId = obj.FromBusinessId;
+
+            if (obj.ToBusinessId != 0)
+                exobj.ToBusinessId = obj.ToBusinessId;
+
 
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;
@@ -91,8 +85,6 @@ namespace DALWHOLEPOS.Repos
             if (obj.DeletedAt != default(DateTime))
                 exobj.DeletedAt = obj.DeletedAt;
 
-            if (obj.Business != null)
-                exobj.Business = obj.Business;
 
             return db.SaveChanges() > 0;
         }

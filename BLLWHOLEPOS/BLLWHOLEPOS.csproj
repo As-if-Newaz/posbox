@@ -53,6 +53,7 @@
     <Compile Include="DTOs\SellDTO.cs" />
     <Compile Include="DTOs\SupplierDTO.cs" />
     <Compile Include="DTOs\TransactionDTO.cs" />
+    <Compile Include="DTOs\TransferDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -64,8 +64,6 @@ namespace DALWHOLEPOS.Repos
             if (!string.IsNullOrEmpty(obj.Role))
                 exobj.Role = obj.Role;
 
-                exobj.IsActive = true;
-
             if (!string.IsNullOrEmpty(obj.Password))
                 exobj.Password = obj.Password;
 

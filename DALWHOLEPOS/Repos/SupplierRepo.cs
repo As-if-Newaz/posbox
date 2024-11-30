@@ -62,8 +62,6 @@ namespace DALWHOLEPOS.Repos
             if (!string.IsNullOrEmpty(obj.Phone))
                 exobj.Phone = obj.Phone;
 
-            exobj.IsDeleted = false;
-
 
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;
