@@ -8,33 +8,33 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.Repos
 {
-    internal class QuickSellRepo : Repo, IRepo<QuickSell, int, bool>
+    internal class DiscardApplicationRepo : Repo, IRepo<DiscardApplication, int, bool>
     {
-        public bool Create(QuickSell obj)
+        public bool Create(DiscardApplication obj)
         {
-            db.QuickSells.Add(obj);
+            db.Discards.Add(obj);
             db.SaveChanges();
             return true;
         }
 
         public bool Delete(int id)
         {
-            var exobj = db.QuickSells.Find(id);
+            var exobj = db.Discards.Find(id);
             exobj.IsDeleted = true;
             return db.SaveChanges() > 0;
         }
 
-            public List<QuickSell> Get()
+        public List<DiscardApplication> Get()
         {
-            return db.QuickSells.Where(p => p.IsDeleted == false).ToList();
+            return db.Discards.Where(p => p.IsDeleted == false).ToList();
         }
 
-        public QuickSell Get(int id)
+        public DiscardApplication Get(int id)
         {
-            return db.QuickSells.Where(v => v.Id == id && v.IsDeleted == false).FirstOrDefault();
+            return db.Discards.Where(v => v.Id == id && v.IsDeleted == false).FirstOrDefault();
         }
 
-        public bool Update(QuickSell obj)
+        public bool Update(DiscardApplication obj)
         {
             var exobj = Get(obj.Id);
             if (exobj == null)
@@ -42,20 +42,23 @@ namespace DALWHOLEPOS.Repos
                 return false;
             }
 
-            if (obj.Invoice != null)
-                exobj.Invoice = obj.Invoice;
-
-            if (!string.IsNullOrEmpty(obj.ProductName))
-                exobj.ProductName = obj.ProductName;
-
-            if (obj.Customer != null)
-                exobj.Customer = obj.Customer;
+            if (obj.ProductId != 0)
+                exobj.ProductId = obj.ProductId;
+           
+            if (!string.IsNullOrEmpty(obj.CostCode))
+                exobj.CostCode = obj.CostCode;
 
             if (obj.Quantity != 0)
                 exobj.Quantity = obj.Quantity;
 
-            if (obj.UnitPrice != 0)
-                exobj.UnitPrice = obj.UnitPrice;
+            if (obj.NetCost != 0)
+                exobj.NetCost = obj.NetCost;
+
+            if (!string.IsNullOrEmpty(obj.Type))
+                exobj.Type = obj.Type;
+
+            if (!string.IsNullOrEmpty(obj.Status))
+                exobj.Status = obj.Status;
 
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;
@@ -75,8 +78,9 @@ namespace DALWHOLEPOS.Repos
             if (obj.DeletedAt != default(DateTime))
                 exobj.DeletedAt = obj.DeletedAt;
 
-            if (obj.Business != null)
-                exobj.Business = obj.Business;
+            if (obj.BusinessId != 0)
+                exobj.BusinessId = obj.BusinessId;
+
 
             return db.SaveChanges() > 0;
         }

@@ -32,6 +32,8 @@ namespace DALWHOLEPOS.EF
 
         public DbSet<Transfer> Transfers { get; set; }
 
+        public DbSet<DiscardApplication> Discards { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -85,6 +87,12 @@ namespace DALWHOLEPOS.EF
                 .WithMany()
                 .HasForeignKey(t => t.ToBusinessId)
                 .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<DiscardApplication>()
+        .HasRequired(d => d.Product)
+        .WithMany()
+        .HasForeignKey(d => d.ProductId)
+        .WillCascadeOnDelete(false);
         }
     }
 }

@@ -55,6 +55,7 @@
     <Compile Include="EF\Context.cs" />
     <Compile Include="EF\TableModels\Business.cs" />
     <Compile Include="EF\TableModels\Customer.cs" />
+    <Compile Include="EF\TableModels\DiscardApplication.cs" />
     <Compile Include="EF\TableModels\Invoice.cs" />
     <Compile Include="EF\TableModels\LoginToken.cs" />
     <Compile Include="EF\TableModels\Product.cs" />
@@ -65,14 +66,15 @@
     <Compile Include="EF\TableModels\Transaction.cs" />
     <Compile Include="EF\TableModels\Transfer.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202411290604470_db4.cs" />
-    <Compile Include="Migrations\202411290604470_db4.Designer.cs">
-      <DependentUpon>202411290604470_db4.cs</DependentUpon>
+    <Compile Include="Migrations\202411301532489_Db7.cs" />
+    <Compile Include="Migrations\202411301532489_Db7.Designer.cs">
+      <DependentUpon>202411301532489_Db7.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\BusinessRepo.cs" />
     <Compile Include="Repos\CustomerRepo.cs" />
+    <Compile Include="Repos\DiscardApplicationRepo.cs" />
     <Compile Include="Repos\InvoiceRepo.cs" />
     <Compile Include="Repos\LoginTokenRepo.cs" />
     <Compile Include="Repos\ProductRepo.cs" />
@@ -89,8 +91,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202411290604470_db4.resx">
-      <DependentUpon>202411290604470_db4.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411301532489_Db7.resx">
+      <DependentUpon>202411301532489_Db7.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

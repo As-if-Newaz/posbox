@@ -7,13 +7,13 @@ namespace DALWHOLEPOS.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.5.1")]
-    public sealed partial class db4 : IMigrationMetadata
+    public sealed partial class Db7 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(db4));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Db7));
         
         string IMigrationMetadata.Id
         {
-            get { return "202411290604470_db4"; }
+            get { return "202411301532489_Db7"; }
         }
         
         string IMigrationMetadata.Source

@@ -45,6 +45,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\BusinessDTO.cs" />
     <Compile Include="DTOs\CustomerDTO.cs" />
+    <Compile Include="DTOs\DiscardApplicationDTO.cs" />
     <Compile Include="DTOs\InvoiceDTO.cs" />
     <Compile Include="DTOs\LoginTokenDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
