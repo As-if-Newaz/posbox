@@ -11,55 +11,60 @@ namespace DALWHOLEPOS
 {
     public class DataAccess
     {
-        public IRepo<Business, int, bool> BusinessData ()
+        public static IRepo<Business, int, bool> BusinessData ()
             { 
                 return new BusinessRepo(); 
             }
 
-        public IRepo<Customer, int, bool> CustomerData()
+        public static IRepo<Customer, int, bool> CustomerData()
         {
             return new CustomerRepo();
         }
 
-        public IRepo<Invoice, int, bool> InvoiceData()
+        public static IRepo<Invoice, int, bool> InvoiceData()
         {
             return new InvoiceRepo();
         }
 
-        public IRepo<LoginToken, string, LoginToken> LoginTokenData()
+        public static IRepo<LoginToken, string, LoginToken> LoginTokenData()
         {
             return new LoginTokenRepo();
         }
 
-        public IRepo<Product, int, bool> ProductData()
+        public static IRepo<Product, int, bool> ProductData()
         {
             return new ProductRepo();
         }
 
-        public IRepo<QuickSell, int, bool> QuickSellData()
+        public static IRepo<QuickSell, int, bool> QuickSellData()
         {
             return new QuickSellRepo();
         }
 
 
-        public IRepo<Report, int, bool> ReportData()
+        public static IRepo<Report, int, bool> ReportData()
         {
             return new ReportRepo();
         }
 
-        public IRepo<Sell, int, bool> SellData()
+        public static IRepo<Sell, int, bool> SellData()
         {
             return new SellRepo();
         }
 
-        public IRepo<Supplier, int, bool> SupplierData()
+        public static IRepo<Supplier, int, bool> SupplierData()
         {
             return new SupplierRepo();
         }
 
-        public IRepo<Transaction, int, bool> TransactionData()
+        public static IRepo<Transaction, int, bool> TransactionData()
         {
             return new TransactionRepo();
+        }
+
+        public static IRepo<DiscardApplication, int, bool> DiscardApplicationData()
+        {
+            return new DiscardApplicationRepo();
         }
 
 
