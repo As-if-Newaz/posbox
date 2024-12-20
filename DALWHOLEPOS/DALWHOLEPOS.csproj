@@ -65,10 +65,11 @@
     <Compile Include="EF\TableModels\Supplier.cs" />
     <Compile Include="EF\TableModels\Transaction.cs" />
     <Compile Include="EF\TableModels\Transfer.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202411301532489_Db7.cs" />
-    <Compile Include="Migrations\202411301532489_Db7.Designer.cs">
-      <DependentUpon>202411301532489_Db7.cs</DependentUpon>
+    <Compile Include="Migrations\202412201857079_Done11.cs" />
+    <Compile Include="Migrations\202412201857079_Done11.Designer.cs">
+      <DependentUpon>202412201857079_Done11.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,15 +85,18 @@
     <Compile Include="Repos\SellRepo.cs" />
     <Compile Include="Repos\SupplierRepo.cs" />
     <Compile Include="Repos\TransactionRepo.cs" />
-    <Compile Include="Repos\TrasferRepo.cs" />
+    <Compile Include="Repos\TransferRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202411301532489_Db7.resx">
-      <DependentUpon>202411301532489_Db7.cs</DependentUpon>
+    <Folder Include="Migrations\202412201856378_21\12\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202412201857079_Done11.resx">
+      <DependentUpon>202412201857079_Done11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

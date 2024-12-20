@@ -10,3 +10,5 @@ C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\obj\Debug\BLLWHOLEPOS.pdb
 C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\DALWHOLEPOS.dll.config
 C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\EntityFramework.dll
 C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\EntityFramework.xml
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\AutoMapper.dll
+C:\Users\Asifk\Desktop\POSBOX\BLLWHOLEPOS\bin\Debug\AutoMapper.xml

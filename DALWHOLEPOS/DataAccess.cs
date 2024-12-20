@@ -61,12 +61,17 @@ namespace DALWHOLEPOS
         {
             return new TransactionRepo();
         }
+        public static IRepo<Transfer, int, bool> TransferData()
+        {
+            return new TransferRepo();
+        }
 
         public static IRepo<DiscardApplication, int, bool> DiscardApplicationData()
         {
             return new DiscardApplicationRepo();
         }
 
+        public static IAuth AuthData() { return new BusinessRepo(); }
 
 
     }

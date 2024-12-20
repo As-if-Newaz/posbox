@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.Repos
 {
-    internal class TrasferRepo : Repo, IRepo<Transfer, int, bool>
+    internal class TransferRepo :Repo, IRepo<Transfer, int, bool>
     {
         public bool Create(Transfer obj)
         {
@@ -42,8 +42,8 @@ namespace DALWHOLEPOS.Repos
                 return false;
             }
 
-            if (obj.ProductId != 0)
-                exobj.ProductId = obj.ProductId;
+            if (obj.Product != null)
+                exobj.Product = obj.Product;
 
             if (obj.Quantity != 0)
                 exobj.Quantity = obj.Quantity;
@@ -60,12 +60,11 @@ namespace DALWHOLEPOS.Repos
             if (!string.IsNullOrEmpty(obj.Status))
                 exobj.Status = obj.Status;
 
-            if (obj.FromBusinessId != 0)
-                exobj.FromBusinessId = obj.FromBusinessId;
+            if (obj.FromBusiness != null)
+                exobj.FromBusiness = obj.FromBusiness;
 
-            if (obj.ToBusinessId != 0)
-                exobj.ToBusinessId = obj.ToBusinessId;
-
+            if (obj.ToBusiness != null)
+                exobj.ToBusiness = obj.ToBusiness;
 
             if (!string.IsNullOrEmpty(obj.CreatedBy))
                 exobj.CreatedBy = obj.CreatedBy;
@@ -84,7 +83,6 @@ namespace DALWHOLEPOS.Repos
 
             if (obj.DeletedAt != default(DateTime))
                 exobj.DeletedAt = obj.DeletedAt;
-
 
             return db.SaveChanges() > 0;
         }

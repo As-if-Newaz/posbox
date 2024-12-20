@@ -44,6 +44,11 @@ namespace DALWHOLEPOS.EF.TableModels
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(50)]
+        public string BuName { get; set; } //Business Username
+
+        [Required]
+        [Column(TypeName = "VARCHAR")]
+        [StringLength(50)]
         public string Password { get; set; }
 
         [Required]

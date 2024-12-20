@@ -8,8 +8,14 @@ using System.Threading.Tasks;
 
 namespace DALWHOLEPOS.Repos
 {
-    internal class BusinessRepo : Repo, IRepo<Business, int, bool>
+    internal class BusinessRepo : Repo, IRepo<Business, int, bool>, IAuth
     {
+        public Business Authentication(string buName, string password)
+        {
+            var business = db.Businesses.SingleOrDefault(x => x.BuName.Equals(buName) && x.Password.Equals(password));
+            return business;
+        }
+
         public bool Create(Business obj)
         {
             var exists = db.Businesses.Any(v => v.Name == obj.Name || v.Phone == obj.Phone);
@@ -63,6 +69,9 @@ namespace DALWHOLEPOS.Repos
 
             if (!string.IsNullOrEmpty(obj.Role))
                 exobj.Role = obj.Role;
+
+            if (!string.IsNullOrEmpty(obj.BuName))
+                exobj.BuName = obj.BuName;
 
             if (!string.IsNullOrEmpty(obj.Password))
                 exobj.Password = obj.Password;
