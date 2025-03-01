@@ -1,0 +1,130 @@
+﻿/* Basic styles for the sidebar */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Make wrapper take up full height */
+.wrapper {
+    max-height: 100%;
+    display: flex;
+
+    flex-grow: 1; /* Allow wrapper to expand to fill available space */
+    align-items: stretch; /* Stretch sidebar to full height */
+    
+}
+
+/* Sidebar styles (unchanged) */
+#sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #343a40;
+    transition: all 0.3s;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 15px;
+        background: #23272b; /* Darker background for distinction */
+        text-align: left;
+        font-size: 3px;
+        font-weight: bold;
+        color: white;
+        border-bottom: 2px solid #575d63;
+    }
+
+    #sidebar ul.components {
+        padding: 20px 0; /* Adjust padding as needed */
+    }
+
+    #sidebar ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtler border */
+
+    }
+
+        #sidebar ul li a {
+            color: #fff;
+            font-size: 1.3rem;
+            padding: 10px 20px; /* Add left/right padding */
+            display: block;
+            text-decoration: none; /* Remove underlines from links */
+        }
+
+            #sidebar ul li a:hover {
+                color: #adb5bd; /* Example hover color */
+            }
+
+#content {
+    flex-grow: 1;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+    #content.active {
+        margin-left: 250px;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        left: -250px;
+        top: 0;
+        background: #343a40;
+        transition: all 0.3s;
+        z-index: 1000;
+    }
+
+        #sidebar.active {
+            left: 0;
+        }
+
+    #content {
+        margin-left: 250px;
+        
+        transition: all 0.3s;
+    }
+
+        #content.overlay {
+            filter: brightness(0.5);
+        }
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        left: -250px;
+    }
+
+        #sidebar.active {
+            left: 0;
+        }
+
+    #content {
+        margin-left: 0;
+    }
+
+        #content.overlay {
+            filter: brightness(0.5);
+        }
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa; /* Example footer background color */
+}

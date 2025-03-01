@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BLLWHOLEPOS.Services
 {
-    internal class AuthService
+    public class AuthService
     {
         static Mapper GetMapper()
         {

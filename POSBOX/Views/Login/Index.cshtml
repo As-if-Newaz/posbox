@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+<div style="display: flex; justify-content: center; align-items: center; min-height: 200px;">
+    <div style="text-align: center;">
+
+        <h2>Login</h2>
+        <form method="post">
+
+            <input type="text" class="form-control" placeholder="User name" value="@Model.BuName" name="BuName" />
+            <span class="text-danger" @Html.ValidationMessage("BuName")
+          <br />
+        <input type="password" class="form-control" placeholder="Password" name="Password" />
+        <span class="text-danger" @Html.ValidationMessage("Password")
+            <br>
+            <input type="submit" value="Login" class="btn btn-success" />
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")  @* This is likely your Bootstrap CSS *@
+    @Styles.Render("~/Content/Custom.css") @* Your Custom CSS MUST come AFTER *@
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="bg-dark">
+            <div class="sidebar-header">
+                <h2>Pears International</h2>
+                <button type="button" id="sidebarClose" class="btn btn-danger btn-sm d-md-none">✖ ☰ Menu</button>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Add Businesses</a></li>
+                <li><a href="#">Manage Businesses</a></li>
+                <li><a href="#">View Sales Report</a></li>
+                <li><a href="#">View Discard Applications</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div id="content">
+                <button type="button" id="sidebarCollapse" class="btn btn-dark d-md-none">
+                    ☰ Menu
+                </button>
+                    <div class="container body-content">
+                        <div style="background-color: #4b545c; color: white; width: 100%">
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+
+                        @RenderBody()
+                        <hr />
+                        <footer>
+                            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+
+            <script>
+                $(document).ready(function () {
+                    function isMobile() {
+                        return $(window).width() <= 768; // Detect mobile screen size
+                    }
+
+                    $('#sidebarCollapse').on('click', function () {
+                        if (isMobile()) {
+                            $('#sidebar').toggleClass('active');
+                            $('#content').toggleClass('overlay');
+                        }
+                    });
+
+                    $('#sidebarClose').on('click', function () {
+                        $('#sidebar').removeClass('active');
+                        $('#content').removeClass('overlay');
+                    });
+
+                    // Ensure sidebar stays visible on desktop when resizing
+                    $(window).resize(function () {
+                        if (!isMobile()) {
+                            $('#sidebar').removeClass('active').css("left", "0");
+                            $('#content').removeClass('overlay');
+                        }
+                    });
+                });
+
+
+            </script>
+
+</body>
+</html>

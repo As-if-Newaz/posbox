@@ -83,3 +83,8 @@ C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.dll
 C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.SqlServer.dll
 C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.xml
 C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\EntityFramework.SqlServer.xml
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\AutoMapper.dll
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\DALWHOLEPOS.dll
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\AutoMapper.xml
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\DALWHOLEPOS.pdb
+C:\Users\Asifk\Desktop\POSBOX\POSBOX\bin\DALWHOLEPOS.dll.config

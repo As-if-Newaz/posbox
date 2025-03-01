@@ -50,6 +50,7 @@
     <Compile Include="DTOs\CustomerDTO.cs" />
     <Compile Include="DTOs\DiscardApplicationDTO.cs" />
     <Compile Include="DTOs\InvoiceDTO.cs" />
+    <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\LoginTokenDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
     <Compile Include="DTOs\QuickSellDTO.cs" />
