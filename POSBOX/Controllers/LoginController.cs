@@ -27,6 +27,8 @@ namespace POSBOX.Controllers
                 if (token != null)
                 {
                     Session["token"] = token;
+                    var busName = BusinessService.Get(token.BusinessId).BuName;
+                    Session["user"] = busName;
                     TempData["Msg"] = "Login Successfull";
                     return RedirectToAction("Index", "AdminDashboard");
                 }

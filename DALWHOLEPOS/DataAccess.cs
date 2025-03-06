@@ -74,5 +74,7 @@ namespace DALWHOLEPOS
         public static IAuth AuthData() { return new BusinessRepo(); }
 
 
+
+
     }
 }

@@ -36,6 +36,8 @@ namespace DALWHOLEPOS.Repos
             return db.LoginTokens.Where(t => t.Key.Equals(id) && t.IsValid == true).FirstOrDefault();
         }
 
+
+
         public LoginToken Update(LoginToken obj)
         {
             var exobj = Get(obj.Key);

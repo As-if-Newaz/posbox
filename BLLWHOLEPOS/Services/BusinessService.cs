@@ -26,7 +26,6 @@ namespace BLLWHOLEPOS.Services
         {
             obj.CreatedAt = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Utc);
             obj.IsActive = true;
-            obj.Role = "User";
             var data = GetMapper().Map<Business>(obj);
             return DataAccess.BusinessData().Create(data);
         }

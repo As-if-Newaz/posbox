@@ -40,6 +40,7 @@ namespace BLLWHOLEPOS.Services
             }
             return null;
         }
+
         public static bool IsTokenValid(string key)
         {
             var token = DataAccess.LoginTokenData().Get(key);
