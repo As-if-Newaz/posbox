@@ -9,8 +9,8 @@ using System.Web.Mvc;
 
 namespace POSBOX.Controllers
 {
-    [Logged]
-    public class BusinessController : Controller
+    [AdminLogged]
+    public class AdminBusinessController : Controller
     {
         // GET: Business
         [HttpGet]
@@ -71,6 +71,27 @@ namespace POSBOX.Controllers
             }
             return View(businessDTO);
         }
+
+        [HttpPost]
+
+        public ActionResult Delete(int id)
+        {
+            if(BusinessService.Delete(id))
+            {
+                TempData["DelMessage"] = "Record Deleted Successfully!";
+
+                return RedirectToAction("Manage", "AdminBusiness");
+            }
+            else
+            {
+                TempData["DelMessage"] = "Record Failed to Delete";
+
+                return RedirectToAction("Manage", "AdminBusiness");
+            }
+
+        }
+
+
 
     }
 }

@@ -127,9 +127,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Auth\Logged.cs" />
+    <Compile Include="Auth\AdminLogged.cs" />
+    <Compile Include="Auth\UserLogged.cs" />
     <Compile Include="Controllers\AdminDashboardController.cs" />
-    <Compile Include="Controllers\BusinessController.cs" />
+    <Compile Include="Controllers\AdminBusinessController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -193,9 +194,9 @@
     <Content Include="Views\AdminDashboard\Index.cshtml" />
     <Content Include="Views\Shared\_LoginLayout.cshtml" />
     <Content Include="Views\Shared\_AdminDashboard.cshtml" />
-    <Content Include="Views\Business\Create.cshtml" />
-    <Content Include="Views\Business\Manage.cshtml" />
-    <Content Include="Views\Business\Update.cshtml" />
+    <Content Include="Views\AdminBusiness\Create.cshtml" />
+    <Content Include="Views\AdminBusiness\Manage.cshtml" />
+    <Content Include="Views\AdminBusiness\Update.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

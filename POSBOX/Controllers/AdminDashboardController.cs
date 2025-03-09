@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace POSBOX.Controllers
 {
-    [Logged]
+    [AdminLogged]
     public class AdminDashboardController : Controller
     {
         // GET: AdminDashboard

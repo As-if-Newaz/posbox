@@ -2,8 +2,10 @@
 using BLLWHOLEPOS.Services;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
@@ -27,10 +29,22 @@ namespace POSBOX.Controllers
                 if (token != null)
                 {
                     Session["token"] = token;
-                    var busName = BusinessService.Get(token.BusinessId).BuName;
-                    Session["user"] = busName;
+                    Session["user"] = BusinessService.Get(token.BusinessId).BuName;
+                    Session["role"] = BusinessService.Get(token.BusinessId).Role;
                     TempData["Msg"] = "Login Successfull";
-                    return RedirectToAction("Index", "AdminDashboard");
+                     if (Session["role"].Equals("Admin"))
+                        {
+                            return RedirectToAction("Index", "AdminDashboard");
+                        }
+                     else if(Session["role"].Equals("Cashier"))
+                        {
+                            return RedirectToAction("Index", "CashierDashboard");
+                        }
+                     else 
+                        {
+                           return View(loginDTO);
+                        }
+                
                 }
                 else
                 {
